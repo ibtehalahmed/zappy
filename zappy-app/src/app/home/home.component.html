@@ -1,0 +1,7 @@
+<div class="container-fluid">
+  <div class="jumbotron text-center" *ngFor="let tweet of tweets">
+    <span style="font-weight: lighter">{{tweet.created_at | date}}</span>
+    <span>{{tweet.text}}</span>
+
+  </div>
+</div>

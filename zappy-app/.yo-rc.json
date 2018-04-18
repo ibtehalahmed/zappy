@@ -1,0 +1,17 @@
+{
+  "generator-ngx-rocket": {
+    "version": "3.1.1",
+    "props": {
+      "appName": "zappy app",
+      "target": [
+        "web"
+      ],
+      "pwa": true,
+      "ui": "bootstrap",
+      "auth": false,
+      "projectName": "zappy-app",
+      "packageManager": "npm",
+      "mobile": []
+    }
+  }
+}

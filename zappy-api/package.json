@@ -1,0 +1,33 @@
+{
+  "name": "zappy-api",
+  "version": "1.0.0",
+  "description": "zappy integrates with a slack channel and listens on specific messages, it should serve for a tool that fetches tweets from fictionfone account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/ibtehalahmed/zappy.git"
+  },
+  "keywords": [
+    "zappy",
+    "fictionfone",
+    "slack",
+    "real time",
+    "socket.io"
+  ],
+  "author": "ibtehal",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/ibtehalahmed/zappy#readme",
+  "dependencies": {
+    "@slack/client": "^4.1.0",
+    "babel-core": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongoose": "^5.0.15",
+    "socket.io": "^2.1.0",
+    "twitter": "^1.7.1"
+  }
+}

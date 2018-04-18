@@ -1,0 +1,16 @@
+{
+ "port": 9200,
+  "db": {
+    "host": "mongodb://localhost:27017/zappy"
+  },
+  "twitter": {
+    "consumerKey": "",
+    "consumerSecret": "",
+    "accessTokenKey": "",
+    "accessTokenSecret": ""
+  },
+  "slack": {
+    "zappybotApiToken": "",
+    "channel": ""
+  }
+}
